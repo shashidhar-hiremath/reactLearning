@@ -1196,4 +1196,17 @@ console.log(store.getState());
 
 -----------------------------------------Redux in React:------------------------------------------
 
+___________________________________________________________________________________________________
+
+Algo: Diffing Algo
+
+https://medium.com/@abdellani/how-does-the-diff-algorithm-work-in-react-js-c4296548f84b
+
+SyntheticEvent: Your event handlers will be passed instances of SyntheticEvent, a cross-browser wrapper around the browser’s native event. 
+It has the same interface as the browser’s native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
+
+{...event.target}
+__reactFiber$0lv06ow6awh: FiberNode {}
+__reactProps$0lv06ow6awh: props{}
+
 
