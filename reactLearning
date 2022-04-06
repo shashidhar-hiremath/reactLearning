@@ -16,6 +16,8 @@ class App extends Component {
     //     <h1>Hello Ract app</h1>
     //   </div>
     // );
+    
+    //syntactical sugar for jsx
     return React.createElement('div', {className: 'App'}, React.createElement('h1',null, 'Hello Ract app')); // similar to above commented code
   }
 }
